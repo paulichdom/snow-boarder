@@ -12,7 +12,6 @@ public class CrashDetector : MonoBehaviour
             crashEffect.Play();
             Invoke(nameof(ReloadScene), delayValue);
         }
-        
     }
 
     void ReloadScene()
